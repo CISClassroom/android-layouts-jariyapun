@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="156dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="213dp"
+        android:text="PROFILE"
+        android:textColor="#E91E63"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="158dp"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="431dp"
+        android:text="LinearActivity"
+        android:textColor="#E91E63"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="162dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginBottom="320dp"
+        android:text="RelativeActivity"
+        android:textColor="#E91E63"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/sss" />
+
+</RelativeLayout>
